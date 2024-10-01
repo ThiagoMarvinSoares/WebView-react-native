@@ -27,4 +27,4 @@ Cocoapods (for iOS dependencies).<br>
 
 <h3>Errors with Android Studio?</h3><br>
 Check these links, they sure will help:<br>
-<a href="https://stackoverflow.com/questions/36778085/unable-to-build-react-native-app-on-android-device-failed-to-find-target-with-h/36787719#36787719">cannot set ANDROID_HOME</a><br>
+cannot set ANDROID_HOME:<a href="https://stackoverflow.com/questions/36778085/unable-to-build-react-native-app-on-android-device-failed-to-find-target-with-h/36787719#36787719">Here</a><br>
