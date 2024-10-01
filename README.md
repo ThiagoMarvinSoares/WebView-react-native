@@ -21,3 +21,7 @@ Android Emulator or a physical Android device for testing.<br>
 Xcode (latest version).<br>
 A physical iOS device or iOS Simulator.<br>
 Cocoapods (for iOS dependencies).<br>
+
+<h3>Errors with android studio?</h3><br>
+Check these links, they sure will help.<br>
+<href a="https://stackoverflow.com/questions/36778085/unable-to-build-react-native-app-on-android-device-failed-to-find-target-with-h/36787719#36787719">cannot set ANDROID_HOME</href>
