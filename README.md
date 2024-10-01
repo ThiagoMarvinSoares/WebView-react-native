@@ -25,11 +25,11 @@ Xcode (latest version).<br>
 A physical iOS device or iOS Simulator.<br>
 Cocoapods (for iOS dependencies).<br>
 
-<h3>Errors with Android Studio?</h3><br>
+<h2>Errors with Android Studio?</h2><br>
 Run <code>react-native doctor</code> to check for the status of dependencies.<br>
 Run <code>npx react-native start</code> to run the development server.<br>
 Check these links for troubleshooting, they might help:<br>
-Cannot set ANDROID_HOME: <a href="https://stackoverflow.com/questions/36778085/unable-to-build-react-native-app-on-android-device-failed-to-find-target-with-h/36787719#36787719">Here</a><br>
+```Cannot set ANDROID_HOME```: <a href="https://stackoverflow.com/questions/36778085/unable-to-build-react-native-app-on-android-device-failed-to-find-target-with-h/36787719#36787719">Here</a><br>
 
 <h3>Android Studio uses port 8081 by default</h3><br>
 If Android Studio is using port 8081 (which is also the port used by React Native’s Metro Bundler), you might run into issues. Here are a few ways to resolve this:<br>
@@ -48,13 +48,6 @@ If Android Studio is using port 8081 (which is also the port used by React Nativ
     ```<br>
 
 2. **Change the Metro Bundler port**:<br>
-   If you prefer to use a different port for Metro Bundler, you can run it on a different port by using the following command:<br>
-    ```bash
-    npx react-native start --port=8088
-    ```<br>
-    Then, in a new terminal, run the Android app with:<br>
-    ```bash
-    npx react-native run-android --port 8088
-    ```<br>
+   I didn't find a way to correcly change the port, when I tried to in android studio it just refused to.
 
 Let me know if you need any further assistance!
