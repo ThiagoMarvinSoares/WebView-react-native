@@ -26,5 +26,10 @@ A physical iOS device or iOS Simulator.<br>
 Cocoapods (for iOS dependencies).<br>
 
 <h3>Errors with Android Studio?</h3><br>
+
+Run react-native doctor to check for status of dependencies.<br>
+Run npx react-native start to run the dev server.<br>
 Check these links, they sure will help:<br>
 cannot set ANDROID_HOME:<a href="https://stackoverflow.com/questions/36778085/unable-to-build-react-native-app-on-android-device-failed-to-find-target-with-h/36787719#36787719">Here</a><br>
+
+Android Studio by default runs in port 8081.<br>
