@@ -2,7 +2,7 @@
 This is a simple mobile application developed using React Native that displays a WebView to render web content. The app is compatible with both Android and iOS platforms and can be compiled using Android Studio for Android and Xcode for iOS.<br>
 
 <h2>Getting Started</h2>
- Run ```npx create-react-app```
+ Run npx create-react-app
 <h2>Features</h2><br>
 Displays a WebView that loads web content from a URL.<br>
 Cross-platform support for both Android and iOS.<br>
