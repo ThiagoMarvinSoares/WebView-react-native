@@ -5,10 +5,10 @@ This is a simple mobile application developed using React Native that displays a
 Displays a WebView that loads web content from a URL.<br>
 Cross-platform support for both Android and iOS.<br>
 Easy to compile and run on emulators or real devices.<br>
-<h3>Prerequisites</h3><br>
+<h2>Prerequisites</h2><br>
 Before running or compiling the application, ensure you have the following installed:<br>
 
-<h2>General</h2><br>
+<h3>General</h3><br>
 Node.js (v12.x or higher)<br>
 npm or yarn<br>
 React Native CLI (globally installed)<br>
