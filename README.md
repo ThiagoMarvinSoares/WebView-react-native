@@ -28,7 +28,7 @@ A physical iOS device or iOS Simulator.<br>
 Cocoapods (for iOS dependencies).<br>
 
 <h2>Errors with Android Studio?</h2><br>
-Run <code>react-native doctor</code> to check for the status of dependencies.<br>
+Run <code>npx react-native doctor</code> to check for the status of dependencies.<br>
 Run <code>npx react-native start</code> to run the development server.<br>
 Check these links for troubleshooting, they might help:<br>
 ```Cannot set ANDROID_HOME```: <a href="https://stackoverflow.com/questions/36778085/unable-to-build-react-native-app-on-android-device-failed-to-find-target-with-h/36787719#36787719">Here</a><br>
