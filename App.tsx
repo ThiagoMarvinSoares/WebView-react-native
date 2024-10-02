@@ -6,7 +6,7 @@ const App = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <WebView 
-        source={{ uri: 'https://example.com' }}  // Replace with your URL
+        source={{ uri: 'https://sigaaguas.org.br/sigaweb/apps/doce/' }}
         style={styles.webview} 
       />
     </SafeAreaView>
