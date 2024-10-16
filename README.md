@@ -4,23 +4,22 @@
 <ul>
   <li>Node.js 15+</li>
   <li>Xcode (for iOS development)</li>
-  <li>Android Studio (for Android development)</li>
   <li>CocoaPods (for managing iOS dependencies)</li>
+  <li>Android Studio (for Android development)</li>
 </ul>
 
 <h2>Starting from Scratch</h2>
 <ol>
-  <li><strong>Clone the repository:</strong>
-    <pre><code>git clone &lt;repository-url&gt;
-cd &lt;project-directory&gt;</code></pre>
+  <li><strong>Create the project</strong>
+    <pre><code>npx @react-native-community/cli init</code>;
+  </li>
+
+   <li><strong>Install React Native WebView:</strong>
+    <pre><code>npm install react-native-webview</code></pre>
   </li>
   
   <li><strong>Install dependencies:</strong>
     <pre><code>npm install</code></pre>
-  </li>
-  
-  <li><strong>Install React Native WebView:</strong>
-    <pre><code>npm install react-native-webview</code></pre>
   </li>
   
   <li><strong>Configure iOS and Android folders:</strong>
