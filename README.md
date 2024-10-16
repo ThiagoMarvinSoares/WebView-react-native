@@ -92,3 +92,14 @@ cd ..</code></pre>
     </ul>
   </li>
 </ol>
+<br>
+<h2>Common errors</h2>
+      <li><strong>Android_HOME will need to be setup:</strong>
+        <p>In terminal</p>
+        <ul>
+          <li><code>export ANDROID_HOME={YOUR_PATH}</code></li>
+          <li>
+            <pre><code>export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools</code></pre>
+          </li>
+        </ul>
+      </li>
