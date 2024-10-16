@@ -98,9 +98,6 @@ cd ..</code></pre>
       <li><strong>Android_HOME will need to be setup:</strong>
         <p>In terminal</p>
         <ul>
-            <code>
-            export ANDROID_HOME={YOUR_PATH}<br>
-            export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
-            </code>
+            <code>export ANDROID_HOME={YOUR_PATH}<br>export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools</code>
         </ul>
       </li>
