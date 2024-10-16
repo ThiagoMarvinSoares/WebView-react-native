@@ -50,7 +50,7 @@ cd ..</code></pre>
 <h2>Cloning the Project</h2>
 <ol>
   <li><strong>Clone the repository:</strong>
-    <pre><code>git clone &lt;repository-url&gt;
+    <pre><code>[git clone &lt;repository-url](https://github.com/ThiagoMarvinSoares/WebView-react-native.git)&gt;
 cd &lt;project-directory&gt;</code></pre>
   </li>
   
