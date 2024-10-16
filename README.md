@@ -99,8 +99,11 @@ cd ..</code></pre>
         <p>In terminal</p>
         <ul>
           <li>
-            <pre><code>export ANDROID_HOME={YOUR_PATH}</code></pre></li><br>
-            <pre><code>export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools</code></pre>
+            <code>
+            <pre>export ANDROID_HOME={YOUR_PATH}<br></pre>
+            <pre>export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools</pre>
+            </code></li><br>
+            <pre><code></code></pre>
           </li>
         </ul>
       </li>
