@@ -100,8 +100,8 @@ cd ..</code></pre>
         <ul>
           <li>
             <code>
-            <pre>export ANDROID_HOME={YOUR_PATH}<br></pre>
-            <pre>export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools</pre>
+            export ANDROID_HOME={YOUR_PATH}<br>
+            export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
             </code></li><br>
             <pre><code></code></pre>
           </li>
