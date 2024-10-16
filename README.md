@@ -94,10 +94,12 @@ cd ..</code></pre>
 </ol>
 <br>
 <h2>Common errors</h2>
+      <p>Remember to run <code>npx react-native doctor</code> to check any necessary needed configuration</p>
       <li><strong>Android_HOME will need to be setup:</strong>
         <p>In terminal</p>
         <ul>
-          <li><code>export ANDROID_HOME={YOUR_PATH}</code></li>
+          <li>
+            <pre><code>export ANDROID_HOME={YOUR_PATH}</code></pre></li>
           <li>
             <pre><code>export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools</code></pre>
           </li>
