@@ -93,11 +93,16 @@ cd ..</code></pre>
   </li>
 </ol>
 <br>
-<h2>Common errors</h2>
-      <p>Remember to run <code>npx react-native doctor</code> to check any necessary needed configuration</p>
-      <li><strong>Android_HOME will need to be setup:</strong>
-        <p>In terminal</p>
-        <ul>
-            <code>export ANDROID_HOME={YOUR_PATH}<br>export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools</code>
-        </ul>
-      </li>
+<h2>Common Errors</h2>
+<p>Remember to run <code>npx react-native doctor</code> to check any necessary configurations.</p>
+
+<ul>
+    <li>
+        <strong>ANDROID_HOME Environment Variable:</strong>
+        <p>If you encounter issues related to Android SDK, ensure that the <code>ANDROID_HOME</code> variable is set up correctly:</p>
+        <p>In your terminal, use the following commands:</p>
+        <pre><code>export ANDROID_HOME={YOUR_PATH_TO_ANDROID_SDK}
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools</code></pre>
+        <p>Replace <code>{YOUR_PATH_TO_ANDROID_SDK}</code> with the actual path where your Android SDK is installed.</p>
+    </li>
+</ul>
